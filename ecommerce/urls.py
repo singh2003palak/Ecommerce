@@ -20,7 +20,7 @@ from django.conf import settings
 from django.http import HttpResponse
 
 def home(request):
-    return HttpResponse("Welcome to the homepage!")
+    return HttpResponse("Welcome to the homepage palak!")
 
 urlpatterns = [
     path('admin/', admin.site.urls),
